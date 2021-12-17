@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>PHP-BADWORDS</title>
 </head>
 <body>
-    <div><h1>Hello <?php echo $_GET["name"] ?> </h1> </div> 
+    <div><h1>Parola inserita: <?php echo $_GET["name"] ?> </h1> </div> 
 
     <form action="censored.php" method="get">
         <input type="text" name="name" placeholder='inserisci la parola da censurare'>

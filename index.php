@@ -8,7 +8,7 @@
     <title>PHP-BADWORDS</title>
     
     <?php
-        $name1 = 'World';
+        $name1 = 'BooGoogle';
     ?>   
         
 </head>
